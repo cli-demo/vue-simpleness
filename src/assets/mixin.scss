@@ -1,0 +1,16 @@
+/**
+ * 这里可以定义自己的mixin
+ */
+
+// flex
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// 宽and高
+@mixin wh($width, $height) {
+    width: $width;
+    height: $height;
+}
